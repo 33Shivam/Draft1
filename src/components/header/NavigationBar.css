@@ -1,0 +1,140 @@
+.collaboration,
+.crowdfunding,
+.faqs,
+.mission {
+  position: absolute;
+  top: 21px;
+  left: 594px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.collaboration,
+.crowdfunding,
+.faqs {
+  left: 986px;
+}
+
+.crowdfunding,
+.faqs {
+  left: 766px;
+  color: var(--color-chocolate-300);
+}
+
+.crowdfunding {
+  left: 842px;
+}
+
+.button-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-chocolate-100);
+}
+
+.register {
+  position: absolute;
+  top: 27.5%;
+  left: 26.15%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.button {
+  position: absolute;
+  top: 10px;
+  left: 1470px;
+  width: 130px;
+  height: 40px;
+  color: var(--color-white);
+}
+
+.button-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-7xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-chocolate-200);
+  box-sizing: border-box;
+}
+
+.log-in {
+  top: 27.5%;
+  left: 32.31%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.button1,
+.learn,
+.log-in {
+  position: absolute;
+}
+
+.button1 {
+  top: 10px;
+  left: 1328px;
+  width: 130px;
+  height: 40px;
+  color: var(--color-chocolate-200);
+}
+
+.learn {
+  top: 21px;
+  left: 687px;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+.navigation-bar {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-chocolate-100);
+  font-family: var(--font-montserrat);
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+  /* Adjust positions for smaller screens */
+  .collaboration,
+  .crowdfunding,
+  .faqs,
+  .mission {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .register,
+  .log-in {
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .button,
+  .button1,
+  .learn {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Add more media queries as needed for different screen sizes */

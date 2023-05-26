@@ -1,0 +1,103 @@
+.contact-us,
+.govt-of-india {
+  position: absolute;
+  top: 129px;
+  left: 368px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  width: 173px;
+  height: 24px;
+}
+.govt-of-india {
+  top: 357px;
+  left: 689px;
+  color: var(--color-gray-100);
+  text-align: center;
+  width: 301px;
+}
+.ellipse-icon,
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3 {
+  position: absolute;
+  top: 273px;
+  left: 914px;
+  width: 44px;
+  height: 44px;
+}
+.ellipse-icon1,
+.ellipse-icon2,
+.ellipse-icon3 {
+  left: 850px;
+}
+.ellipse-icon2,
+.ellipse-icon3 {
+  left: 786px;
+}
+.ellipse-icon3 {
+  left: 721px;
+}
+.help-desk,
+.terms-and-conditions {
+  position: absolute;
+  top: 129px;
+  left: 504px;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  width: 173px;
+  height: 24px;
+}
+.terms-and-conditions {
+  left: 642px;
+}
+.website-policy {
+  top: 129px;
+  left: 858px;
+}
+.disclaimer,
+.sitemap,
+.socials,
+.website-policy {
+  position: absolute;
+  letter-spacing: -0.01em;
+  line-height: 24px;
+  display: inline-block;
+  width: 173px;
+  height: 24px;
+}
+.socials {
+  top: 227px;
+  left: 753px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+.disclaimer,
+.sitemap {
+  top: 129px;
+  left: 1031px;
+}
+.sitemap {
+  left: 1159px;
+}
+.rectangle {
+  position: absolute;
+  top: 194px;
+  left: 90px;
+  background-color: var(--color-gray-200);
+  width: 1520px;
+  height: 1px;
+}
+.footer-c {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 501px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--body-h4);
+}

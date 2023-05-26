@@ -179,16 +179,24 @@ class Homepage extends React.Component {
 
 
 
+{/* oraganisation section */}
+
+
+
+
+
+
 
     <div className="organization-section">
       <div className="supporting-organisation">SUPPORTING ORGANISATION</div>
-      <img className="ellipse-icon" alt="" src="/ellipse.svg" />
-      <img className="ellipse-icon1" alt="" src="/ellipse1.svg" />
-      <img className="ellipse-icon2" alt="" src="/ellipse2.svg" />
-      <img className="ellipse-icon3" alt="" src="/ellipse3.svg" />
-      <img className="ellipse-icon4" alt="" src="/ellipse4.svg" />
+      <img className="ellipse-icon9" alt="" img src= {require('../assests/ellipse.png')} />
+      <img className="ellipse-icon91" alt="" img src={require("../assests/ellipse2.png")} />
+      <img className="ellipse-icon92" alt="" img src={require("../assests/ellipse3.png")} />
+      <img className="ellipse-icon93" alt="" img src={require("../assests/ellipse4.png")} />
+      <img className="ellipse-icon94" alt="" img src={require("../assests/ellipse4.png")} />
+    
     </div>
-
+    
 
       </div>
     );
